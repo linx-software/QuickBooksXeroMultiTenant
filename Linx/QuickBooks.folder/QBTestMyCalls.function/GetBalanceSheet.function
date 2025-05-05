@@ -1,0 +1,67 @@
+{
+  "Properties": [
+    {
+      "Id": "AjTm",
+      "Type": "Compiled:DateTime",
+      "ValueUsage": "RuntimeRead",
+      "Value": "2025-04-01T00:00:00"
+    },
+    {
+      "Id": "g7og",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "9341454512864104"
+    },
+    {
+      "Id": "lySj",
+      "Type": "Compiled:DateTime",
+      "ValueUsage": "RuntimeRead",
+      "Value": "2025-01-01T00:00:00"
+    },
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "AjTm": "end_date",
+        "g7og": "RealmID",
+        "lySj": "start_date",
+        "sVMP": "accounting_method",
+        "ycP3": "access_token"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Linx.IProcessReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "qyhi",
+        "Name": "QuickBooks.APICalls.GetBalanceSheet",
+        "Parameters": "Generated:T_bptn",
+        "Result": "Custom:CkOC",
+        "IsValid": true,
+        "QualifiedPath": "FL:QuickBooks→FL:APICalls→PC:GetBalanceSheet"
+      },
+      "ValueType": "Linx.ProcessReference"
+    },
+    {
+      "Id": "sVMP",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "Accrual"
+    },
+    {
+      "Id": "ycP3",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetQuickBooksAccessToken",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "Result": "Custom:CkOC"
+}

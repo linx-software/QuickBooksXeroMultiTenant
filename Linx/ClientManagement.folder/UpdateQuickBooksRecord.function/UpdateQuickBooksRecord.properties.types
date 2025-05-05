@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "T_6RPW",
+      "Properties": [
+        {
+          "Id": "tRCw",
+          "Name": "QuickBooksRecord",
+          "Type": "Custom:ir6Z",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

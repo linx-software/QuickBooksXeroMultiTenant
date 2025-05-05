@@ -1,0 +1,34 @@
+{
+  "Properties": [
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "vGDb": "ClientName"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Linx.IProcessReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "5yK0",
+        "Name": "ClientManagement.GetClientID",
+        "Parameters": "Generated:T_8JTV",
+        "Result": "Compiled:Int64",
+        "IsValid": true,
+        "QualifiedPath": "FL:ClientManagement→PC:GetClientID"
+      },
+      "ValueType": "Linx.ProcessReference"
+    },
+    {
+      "Id": "vGDb",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "XeroTest"
+    }
+  ],
+  "Result": "Compiled:Int64"
+}

@@ -1,0 +1,38 @@
+{
+  "Properties": [
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "r02U": "QuickBooksRecord"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Linx.IProcessReference",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "SjuE",
+        "Name": "ClientManagement.CreateXeroRecord",
+        "Parameters": "Generated:T_WYpJ",
+        "Result": null,
+        "IsValid": true,
+        "QualifiedPath": "FL:ClientManagement→PC:CreateXeroRecord"
+      },
+      "ValueType": "Linx.ProcessReference"
+    },
+    {
+      "Id": "r02U",
+      "Type": "Custom:ZTpi",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.Client.XeroInformation",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:ZTpi"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Id": "OfFS",
+  "Name": "GetBalanceSheetResponseBody_Rows_Row_Rows_Row_Rows_Row_Rows_Row",
+  "Properties": [
+    {
+      "Id": "SLvk",
+      "Name": "ColData",
+      "Type": "List:Custom:4XSK"
+    },
+    {
+      "Id": "79CS",
+      "Name": "type",
+      "Type": "Compiled:String"
+    }
+  ]
+}

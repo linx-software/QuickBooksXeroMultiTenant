@@ -1,0 +1,16 @@
+{
+  "Id": "6tli",
+  "Name": "GetBalanceSheetResponseBody_Header_Option",
+  "Properties": [
+    {
+      "Id": "FcNv",
+      "Name": "Name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "dgZq",
+      "Name": "Value",
+      "Type": "Compiled:String"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "Properties": [
+    {
+      "Id": "Connection string",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Settings.DatabaseConnection",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Connection type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Shared.Common.Sql.DesignerConnectionType, Twenty57.Linx.Plugins.Database.Shared, Version=3.0.5.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "SqlServer"
+    },
+    {
+      "Id": "Expression0",
+      "Type": "Compiled:Object",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.ClientID",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Int64"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Result type",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Shared.ExecuteSQL.ResultType, Twenty57.Linx.Plugins.Database.Shared, Version=3.0.5.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "CustomType": null,
+        "Fields": [
+          {
+            "ColumnName": "TokenId",
+            "Name": "TokenId",
+            "TypeReference": "Compiled:Int64"
+          },
+          {
+            "ColumnName": "ClientId",
+            "Name": "ClientId",
+            "TypeReference": "Compiled:Int64"
+          },
+          {
+            "ColumnName": "QB_Client_ID",
+            "Name": "QB_Client_ID",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "QB_ClientSecret",
+            "Name": "QB_ClientSecret",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "RealmId",
+            "Name": "RealmId",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "AccessToken",
+            "Name": "AccessToken",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "RefreshToken",
+            "Name": "RefreshToken",
+            "TypeReference": "Compiled:String"
+          },
+          {
+            "ColumnName": "AccessTokenRetrievedAt",
+            "Name": "AccessTokenRetrievedAt",
+            "TypeReference": "Compiled:DateTime"
+          },
+          {
+            "ColumnName": "AccessTokenExpiresInSeconds",
+            "Name": "AccessTokenExpiresInSeconds",
+            "TypeReference": "Compiled:Int64"
+          },
+          {
+            "ColumnName": "RefreshTokenExpiresInSeconds",
+            "Name": "RefreshTokenExpiresInSeconds",
+            "TypeReference": "Compiled:Int64"
+          },
+          {
+            "ColumnName": "CreatedAt",
+            "Name": "CreatedAt",
+            "TypeReference": "Compiled:DateTime"
+          },
+          {
+            "ColumnName": "LastUpdatedAt",
+            "Name": "LastUpdatedAt",
+            "TypeReference": "Compiled:DateTime"
+          }
+        ],
+        "IsCustomType": false
+      }
+    },
+    {
+      "Id": "Return options",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Database.Shared.ExecuteSQL.ReturnModeType, Twenty57.Linx.Plugins.Database.Shared, Version=3.0.5.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "FirstRow"
+    },
+    {
+      "Id": "SQL",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": "SELECT TokenId\r\n      ,ClientId\r\n      ,QB_Client_ID\r\n      ,QB_ClientSecret\r\n      ,RealmId\r\n      ,AccessToken\r\n      ,RefreshToken\r\n      ,AccessTokenRetrievedAt\r\n      ,AccessTokenExpiresInSeconds\r\n      ,RefreshTokenExpiresInSeconds\r\n      ,CreatedAt\r\n      ,LastUpdatedAt\r\n  FROM dbo.QuickBooksTokens\r\n  WHERE ClientId = @{$.Parameters.ClientID}\r\n"
+    },
+    {
+      "Id": "Timeout",
+      "Type": "Compiled:Int32",
+      "ValueUsage": "DesignTime",
+      "Value": 60
+    }
+  ],
+  "Result": "Generated:T_OGTZ",
+  "Version": "3"
+}

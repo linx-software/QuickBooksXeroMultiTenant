@@ -1,0 +1,21 @@
+{
+  "Id": "0E5P",
+  "Name": "BalanceSheetResponseBody_Reports_Rows",
+  "Properties": [
+    {
+      "Id": "gi9w",
+      "Name": "RowType",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "6u4f",
+      "Name": "Title",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "M1GI",
+      "Name": "Rows",
+      "Type": "List:Compiled:String"
+    }
+  ]
+}

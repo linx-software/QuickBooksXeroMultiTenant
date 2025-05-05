@@ -1,0 +1,11 @@
+{
+  "Id": "3oW5",
+  "Name": "GetBalanceSheetResponseBody_Rows_Row_Rows_Row_Rows_Row_Rows",
+  "Properties": [
+    {
+      "Id": "z5XF",
+      "Name": "Row",
+      "Type": "List:Custom:OfFS"
+    }
+  ]
+}

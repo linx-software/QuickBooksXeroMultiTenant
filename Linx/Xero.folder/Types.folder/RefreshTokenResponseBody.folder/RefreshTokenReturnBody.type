@@ -1,0 +1,31 @@
+{
+  "Id": "RVIF",
+  "Name": "RefreshTokenReturnBody",
+  "Properties": [
+    {
+      "Id": "YfOh",
+      "Name": "access_token",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "hwcG",
+      "Name": "expires_in",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "E4PQ",
+      "Name": "token_type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "QeS7",
+      "Name": "refresh_token",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "sYtY",
+      "Name": "scope",
+      "Type": "Compiled:String"
+    }
+  ]
+}

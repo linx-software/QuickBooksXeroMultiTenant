@@ -1,0 +1,61 @@
+{
+  "Id": "ZTpi",
+  "Name": "XeroCreate",
+  "Properties": [
+    {
+      "Id": "AM1G",
+      "Name": "ClientId",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "1zqY",
+      "Name": "TenantId",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "w6r1",
+      "Name": "AccessToken",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "qSug",
+      "Name": "RefreshToken",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "GoQj",
+      "Name": "AccessTokenRetrievedAt",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "4XBV",
+      "Name": "AccessTokenExpiresInSeconds",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "LSNK",
+      "Name": "RefreshTokenExpiresInSeconds",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "SfmN",
+      "Name": "CreatedAt",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "qCqs",
+      "Name": "LastUpdatedAt",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "Frwb",
+      "Name": "XeroClientSecret",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "aNke",
+      "Name": "XeroClientID",
+      "Type": "Compiled:String"
+    }
+  ]
+}

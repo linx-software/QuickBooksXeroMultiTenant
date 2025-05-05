@@ -1,0 +1,21 @@
+{
+  "Id": "YAFm",
+  "Name": "ClientCreate",
+  "Properties": [
+    {
+      "Id": "9FY6",
+      "Name": "ClientName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "2V6e",
+      "Name": "XeroInformation",
+      "Type": "Custom:ZTpi"
+    },
+    {
+      "Id": "fuij",
+      "Name": "QuickBooksInformation",
+      "Type": "Custom:ir6Z"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Id": "4XSK",
+  "Name": "GetBalanceSheetResponseBody_Rows_Row_Rows_Row_Rows_Row_Rows_Row_ColData",
+  "Properties": [
+    {
+      "Id": "71vP",
+      "Name": "id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "lZf3",
+      "Name": "value",
+      "Type": "Compiled:String"
+    }
+  ]
+}

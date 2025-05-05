@@ -1,0 +1,16 @@
+{
+  "Id": "mW5n",
+  "Name": "GetBalanceSheetResponseBody_Columns_Column_MetaData",
+  "Properties": [
+    {
+      "Id": "Vd5s",
+      "Name": "Name",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "08Gj",
+      "Name": "Value",
+      "Type": "Compiled:String"
+    }
+  ]
+}

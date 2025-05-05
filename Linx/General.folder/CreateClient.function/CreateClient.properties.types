@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "T_dTdI",
+      "Properties": [
+        {
+          "Id": "Y6R8",
+          "Name": "Client",
+          "Type": "Custom:YAFm",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "Id": "tCuA",
+  "Name": "BalanceSheetResponseBody",
+  "Properties": [
+    {
+      "Id": "5Xsd",
+      "Name": "Id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "l0ys",
+      "Name": "Status",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "HY8U",
+      "Name": "ProviderName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "B6ws",
+      "Name": "DateTimeUTC",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "IZHk",
+      "Name": "Reports",
+      "Type": "List:Custom:2bLB"
+    }
+  ]
+}

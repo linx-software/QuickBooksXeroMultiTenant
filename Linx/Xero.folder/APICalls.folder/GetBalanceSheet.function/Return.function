@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:tCuA",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetBalanceSheet.ResponseBody",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:tCuA"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

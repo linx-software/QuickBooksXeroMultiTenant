@@ -1,0 +1,39 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Generated:T_088W",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"AccesToken\":{\"LinxExpression\":\"[PARSED]\"}, \"TennantID\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "AccesToken"
+            ],
+            "expression": {
+              "Expression": "GetClientDetailsForXero.AccessToken",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "TennantID"
+            ],
+            "expression": {
+              "Expression": "GetClientDetailsForXero.TenantId",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

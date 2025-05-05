@@ -1,0 +1,11 @@
+{
+  "Id": "VHoy",
+  "Name": "GetBalanceSheetResponseBody_Rows_Row_Header",
+  "Properties": [
+    {
+      "Id": "7KTh",
+      "Name": "ColData",
+      "Type": "List:Custom:7SFl"
+    }
+  ]
+}

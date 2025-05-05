@@ -1,0 +1,31 @@
+{
+  "Id": "D1G6",
+  "Name": "GetBalanceSheetResponseBody_Rows_Row_Rows_Row",
+  "Properties": [
+    {
+      "Id": "pHNr",
+      "Name": "Header",
+      "Type": "Custom:VHoy"
+    },
+    {
+      "Id": "mPio",
+      "Name": "Rows",
+      "Type": "Custom:E9Df"
+    },
+    {
+      "Id": "vUMk",
+      "Name": "type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ei2E",
+      "Name": "group",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "MfcQ",
+      "Name": "Summary",
+      "Type": "Custom:VHoy"
+    }
+  ]
+}

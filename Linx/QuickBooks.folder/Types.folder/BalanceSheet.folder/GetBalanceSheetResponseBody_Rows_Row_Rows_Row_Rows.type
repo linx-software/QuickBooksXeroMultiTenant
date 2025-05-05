@@ -1,0 +1,11 @@
+{
+  "Id": "E9Df",
+  "Name": "GetBalanceSheetResponseBody_Rows_Row_Rows_Row_Rows",
+  "Properties": [
+    {
+      "Id": "K4Wx",
+      "Name": "Row",
+      "Type": "List:Custom:TYFN"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Id": "CkOC",
+  "Name": "GetBalanceSheetResponseBody",
+  "Properties": [
+    {
+      "Id": "ibb3",
+      "Name": "Header",
+      "Type": "Custom:QmEG"
+    },
+    {
+      "Id": "xpjT",
+      "Name": "Rows",
+      "Type": "Custom:dKkv"
+    },
+    {
+      "Id": "SX99",
+      "Name": "Columns",
+      "Type": "Custom:WbrS"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "T_zXdB",
+      "Properties": [
+        {
+          "Id": "VwU7",
+          "Name": "QuickBooksRecord",
+          "Type": "Custom:ZTpi",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

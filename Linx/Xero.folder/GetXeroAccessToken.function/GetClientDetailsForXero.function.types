@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "T_YGV9",
+      "Properties": [
+        {
+          "Id": "AccessToken",
+          "Name": "AccessToken",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "AccessTokenExpiresInSeconds",
+          "Name": "AccessTokenExpiresInSeconds",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "AccessTokenRetrievedAt",
+          "Name": "AccessTokenRetrievedAt",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "ClientId",
+          "Name": "ClientId",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "CreatedAt",
+          "Name": "CreatedAt",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "LastUpdatedAt",
+          "Name": "LastUpdatedAt",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "RefreshToken",
+          "Name": "RefreshToken",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "RefreshTokenExpiresInSeconds",
+          "Name": "RefreshTokenExpiresInSeconds",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "TenantId",
+          "Name": "TenantId",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "TokenId",
+          "Name": "TokenId",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Xero_Client_ID",
+          "Name": "Xero_Client_ID",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        },
+        {
+          "Id": "Xero_ClientSecret",
+          "Name": "Xero_ClientSecret",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "Id": "RXTm",
+  "Name": "GetBalanceSheetResponseBody_Rows_Row_Rows",
+  "Properties": [
+    {
+      "Id": "1Tbg",
+      "Name": "Row",
+      "Type": "List:Custom:D1G6"
+    }
+  ]
+}

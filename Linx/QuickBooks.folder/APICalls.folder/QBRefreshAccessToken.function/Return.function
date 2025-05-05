@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:Hxj7",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "RefreshQBAccessToken.ResponseBody",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:Hxj7"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

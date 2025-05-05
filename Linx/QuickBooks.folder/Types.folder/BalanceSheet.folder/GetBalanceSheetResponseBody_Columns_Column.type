@@ -1,0 +1,21 @@
+{
+  "Id": "gjBx",
+  "Name": "GetBalanceSheetResponseBody_Columns_Column",
+  "Properties": [
+    {
+      "Id": "xE9t",
+      "Name": "ColType",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "c6mv",
+      "Name": "ColTitle",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "5blx",
+      "Name": "MetaData",
+      "Type": "List:Custom:mW5n"
+    }
+  ]
+}

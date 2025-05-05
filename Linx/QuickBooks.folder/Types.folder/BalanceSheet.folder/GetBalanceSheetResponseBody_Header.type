@@ -1,0 +1,51 @@
+{
+  "Id": "QmEG",
+  "Name": "GetBalanceSheetResponseBody_Header",
+  "Properties": [
+    {
+      "Id": "ZkV5",
+      "Name": "ReportName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "HTBF",
+      "Name": "Option",
+      "Type": "List:Custom:6tli"
+    },
+    {
+      "Id": "aHyF",
+      "Name": "DateMacro",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "2XLx",
+      "Name": "ReportBasis",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "dyb9",
+      "Name": "StartPeriod",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "H8kF",
+      "Name": "Currency",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "C0Ic",
+      "Name": "EndPeriod",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "Cqgn",
+      "Name": "Time",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "yRoH",
+      "Name": "SummarizeColumnsBy",
+      "Type": "Compiled:String"
+    }
+  ]
+}

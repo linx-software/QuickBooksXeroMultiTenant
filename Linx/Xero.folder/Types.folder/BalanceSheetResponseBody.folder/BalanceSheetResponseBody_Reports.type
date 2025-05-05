@@ -1,0 +1,46 @@
+{
+  "Id": "2bLB",
+  "Name": "BalanceSheetResponseBody_Reports",
+  "Properties": [
+    {
+      "Id": "lOHG",
+      "Name": "ReportID",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "mowx",
+      "Name": "ReportName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "0JdC",
+      "Name": "ReportType",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ae8T",
+      "Name": "ReportTitles",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "QSVg",
+      "Name": "ReportDate",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "sUCk",
+      "Name": "UpdatedDateUTC",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Nnxq",
+      "Name": "Fields",
+      "Type": "List:Compiled:String"
+    },
+    {
+      "Id": "Ko4s",
+      "Name": "Rows",
+      "Type": "List:Custom:0E5P"
+    }
+  ]
+}

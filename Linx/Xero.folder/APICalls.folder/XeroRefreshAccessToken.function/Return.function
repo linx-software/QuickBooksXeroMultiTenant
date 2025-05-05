@@ -1,0 +1,19 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:RVIF",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "RefreshXeroAccessToken.ResponseBody",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:RVIF"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "RuntimeCharacteristics": {
+    "IsTerminating": true,
+    "ExecutionPathExecution": "ZeroOrMore"
+  }
+}

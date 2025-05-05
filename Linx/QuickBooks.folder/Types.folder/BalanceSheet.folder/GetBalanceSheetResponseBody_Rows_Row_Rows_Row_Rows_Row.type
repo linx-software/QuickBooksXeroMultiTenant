@@ -1,0 +1,31 @@
+{
+  "Id": "TYFN",
+  "Name": "GetBalanceSheetResponseBody_Rows_Row_Rows_Row_Rows_Row",
+  "Properties": [
+    {
+      "Id": "RFm6",
+      "Name": "Header",
+      "Type": "Custom:VHoy"
+    },
+    {
+      "Id": "URzk",
+      "Name": "Rows",
+      "Type": "Custom:3oW5"
+    },
+    {
+      "Id": "1keq",
+      "Name": "type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "CMge",
+      "Name": "group",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "BXDf",
+      "Name": "Summary",
+      "Type": "Custom:VHoy"
+    }
+  ]
+}

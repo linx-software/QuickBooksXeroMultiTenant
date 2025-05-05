@@ -1,0 +1,66 @@
+{
+  "Id": "ir6Z",
+  "Name": "QuickBooksCreate",
+  "Properties": [
+    {
+      "Id": "a7vf",
+      "Name": "ClientId",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "S8Ox",
+      "Name": "RealmId",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "d4ng",
+      "Name": "AccessToken",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "OqKR",
+      "Name": "RefreshToken",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "vFUY",
+      "Name": "AccessTokenRetrievedAt",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "bTLC",
+      "Name": "AccessTokenExpiresInSeconds",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "Eslp",
+      "Name": "RefreshTokenExpiresInSeconds",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "2bJ2",
+      "Name": "TokenRetreivalTime",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "vzte",
+      "Name": "CreatedAt",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "VxRw",
+      "Name": "LastUpdatedAt",
+      "Type": "Compiled:DateTime"
+    },
+    {
+      "Id": "49pq",
+      "Name": "QBClientSecret",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "SpEF",
+      "Name": "QBClientID",
+      "Type": "Compiled:String"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "Id": "Hxj7",
+  "Name": "RefreshAccessTokenResponseBody",
+  "Properties": [
+    {
+      "Id": "jFqO",
+      "Name": "expires_in",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "NWah",
+      "Name": "x_refresh_token_expires_in",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "pGD6",
+      "Name": "refresh_token",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "pvJO",
+      "Name": "access_token",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "f8jv",
+      "Name": "token_type",
+      "Type": "Compiled:String"
+    }
+  ]
+}

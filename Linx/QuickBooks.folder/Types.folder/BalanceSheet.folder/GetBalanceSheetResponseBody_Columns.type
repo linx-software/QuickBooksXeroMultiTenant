@@ -1,0 +1,11 @@
+{
+  "Id": "WbrS",
+  "Name": "GetBalanceSheetResponseBody_Columns",
+  "Properties": [
+    {
+      "Id": "tJXG",
+      "Name": "Column",
+      "Type": "List:Custom:gjBx"
+    }
+  ]
+}

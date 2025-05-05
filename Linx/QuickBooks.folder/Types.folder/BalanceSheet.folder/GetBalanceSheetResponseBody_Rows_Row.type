@@ -1,0 +1,31 @@
+{
+  "Id": "tzJh",
+  "Name": "GetBalanceSheetResponseBody_Rows_Row",
+  "Properties": [
+    {
+      "Id": "FxNJ",
+      "Name": "Header",
+      "Type": "Custom:VHoy"
+    },
+    {
+      "Id": "Ca8Z",
+      "Name": "Rows",
+      "Type": "Custom:RXTm"
+    },
+    {
+      "Id": "CFhu",
+      "Name": "type",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "WD5C",
+      "Name": "group",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "3tow",
+      "Name": "Summary",
+      "Type": "Custom:VHoy"
+    }
+  ]
+}
